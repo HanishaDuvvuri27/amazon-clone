@@ -1,0 +1,78 @@
+.address-option {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.address-option input {
+  margin-top: 5px;
+}
+
+.address-option p {
+  margin: 2px 0 0;
+  font-size: 14px;
+}
+
+.checkout-card textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+.section-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.payment-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 20px;
+  max-width: 450px;
+}
+
+.payment-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card-icons {
+  height: 22px;
+  margin-left: auto;
+}
+
+.payment-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ebf780;
+  border-radius: 4px;
+}
+
+.payment-row {
+  display: flex;
+  gap: 10px;
+}
+
+.pay-now-btn {
+  width: 100%;
+  padding: 12px;
+  background: #a9ef39;      /* Pink */
+  border: 1px solid #c2185b;
+  border-radius: 4px;
+  font-weight: bold;
+  color: rgb(187, 11, 11);
+  cursor: pointer;
+}
+
+.pay-now-btn:hover {
+  background: #0b5cde;      /* Darker pink on hover */
+}
+

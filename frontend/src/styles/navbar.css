@@ -1,0 +1,65 @@
+/* NAVBAR BASE */
+.navbar {
+  display: flex;
+  align-items: center;
+  background: #131921;
+  color: white;
+  padding: 10px 20px;
+  gap: 20px;
+}
+
+/* HOME ICON */
+.nav-home {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav-home span {
+  font-size: 16px;
+}
+
+.nav-home:hover {
+  border: 1px solid white;
+  padding: 4px 6px;
+}
+
+/* SEARCH BAR (FIXED SIZE) */
+.nav-search {
+  flex: 1;
+  height: 38px;          /* 🔥 fixed height */
+  padding: 0 12px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+}
+
+/* PROFILE */
+.profile {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  background: white;
+  color: black;
+  min-width: 140px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown a:hover {
+  background: #f3f3f3;
+}
